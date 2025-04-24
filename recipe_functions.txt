@@ -1,0 +1,35 @@
+# Load recipe from text file
+def load_recipe():
+    if os.path.exists(filename):
+        with open(filename, "r") as file:
+            lines = file.readlines()
+
+        recipe = {}
+        for line in lines:
+            line = line.strip()
+            if line.startswith("Title: "):
+                recipe["title"] = line[7:]
+            elif line.startswith("Ingredients: "):
+                recipe["ingredients"] = line[12:].split(", ")
+            elif line.startswith("Steps: "):
+                recipe["steps"] = line[7:]
+            elif line.startswith("Tags: "):
+                recipe["tags"] = line[6:].split(", ")
+            elif line == "---":
+                recipes.append(recipe)
+                recipe = {}
+
+# Save recipe to text file
+def save_recipe():
+    with open(filename, "w") as file:
+        for recipe in recipes:
+            file.write(f"Title: {recipe['title']}
+")
+            file.write(f"Ingredients: {', '.join(recipe['ingredients'])}
+")
+            file.write(f"Steps: {recipe['steps']}
+")
+            file.write(f"Tags: {', '.join(recipe['tags'])}
+")
+            file.write("---
+")

@@ -1,0 +1,22 @@
+[
+    {
+        "title": "ramayan",
+        "genre": "spritual",
+        "status": "watched"
+    },
+    {
+        "title": "Annabella",
+        "genre": "horror",
+        "status": "watched"
+    },
+    {
+        "title": "Hera pheri",
+        "genre": "comedy",
+        "status": "pending"
+    },
+    {
+        "title": "commander",
+        "genre": "action",
+        "status": "pending"
+    }
+]

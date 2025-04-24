@@ -1,0 +1,22 @@
+[
+    {
+        "type": "skipping",
+        "duration": 30,
+        "date": "2025-04-21"
+    },
+    {
+        "type": "running",
+        "duration": 45,
+        "date": "2025-04-21"
+    },
+    {
+        "type": "crunchy",
+        "duration": 25,
+        "date": "2025-04-21"
+    },
+    {
+        "type": "pushup",
+        "duration": 35,
+        "date": "2025-04-21"
+    }
+]

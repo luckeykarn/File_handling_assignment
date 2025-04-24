@@ -1,0 +1,21 @@
+[
+    {"date": "2025-04-17", "habit": "running", "done": true},
+    {"date": "2025-04-18", "habit": "running", "done": true},
+    {"date": "2025-04-19", "habit": "running", "done": false},
+    {"date": "2025-04-20", "habit": "running", "done": true},
+    {"date": "2025-04-21", "habit": "running", "done": true},
+    
+    {"date": "2025-04-17", "habit": "meditation", "done": true},
+    {"date": "2025-04-18", "habit": "meditation", "done": true},
+    {"date": "2025-04-19", "habit": "meditation", "done": true},
+    {"date": "2025-04-20", "habit": "meditation", "done": false},
+    {"date": "2025-04-21", "habit": "meditation", "done": true},
+    
+    {"date": "2025-04-17", "habit": "walking", "done": false},
+    {"date": "2025-04-18", "habit": "walking", "done": true},
+    {"date": "2025-04-19", "habit": "walking", "done": true},
+    {"date": "2025-04-20", "habit": "walking", "done": true},
+    {"date": "2025-04-21", "habit": "walking", "done": true}
+]
+
+habbit = ["running","walking",'meditation']

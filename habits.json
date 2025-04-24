@@ -1,0 +1,37 @@
+[
+    {
+        "name": "running",
+        "frequency": "daily",
+        "dates": "2025-04-23"
+    },
+    {
+        "name": "running",
+        "frequency": "daily",
+        "dates": "2025-04-24"
+    },
+    {
+        "name": "walking",
+        "frequency": "daily",
+        "dates": "2025-04-23"
+    },
+    {
+        "name": "swimming",
+        "frequency": "daily",
+        "dates": "2025-04-23"
+    },
+    {
+        "name": "swimming",
+        "frequency": "daily",
+        "dates": "2025-04-24"
+    },
+    {
+        "name": "swimming",
+        "frequency": "daily",
+        "dates": "2025-04-25"
+    },
+    {
+        "name": "running",
+        "frequency": "daily",
+        "dates": "2025-04-23"
+    }
+]
